@@ -1,65 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="portfoliostyle.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="portfoliostyle.css">
 </head>
 
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-          <div class="navbar-nav">
-            <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="#">Contact</a>
-            <a class="nav-link" href="#">Portfolio</a>
-            <a class="nav-link" href="#">About</a>
-          </div>
-
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Luke M</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>
 
 <body>
 
-<h1>
-    Work
-<h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis id autem reiciendis reprehenderit quas natus, ipsa quae voluptates eum hic quibusdam, maxime earum, totam excepturi odit obcaecati numquam. Commodi, reiciendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tenetur porro reiciendis culpa impedit nobis inventore hic soluta tempore nisi! Quaerat ipsa in, quisquam consequuntur dolorem placeat. Adipisci, eveniet reiciendis!</h2>
+  <main class="container">
+    <h1>
+      Work
+    </h1>
+    <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis id autem reiciendis reprehenderit quas natus,
+      ipsa quae voluptates eum hic quibusdam, maxime earum, totam excepturi odit obcaecati numquam. Commodi, reiciendis.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tenetur porro reiciendis culpa impedit nobis
+      inventore hic soluta tempore nisi! Quaerat ipsa in, quisquam consequuntur dolorem placeat. Adipisci, eveniet
+      reiciendis!</h2>
 
-<div class="card-deck">
-    <div class="card">
-      <img src="placeholder-image.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quod quisquam aliquid consectetur, molestias ex adipisci earum quia doloremque quo nobis, magnam vel architecto sed. Quisquam suscipit laboriosam nulla. Qui?</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <div class="row row-cols-1 mt-4 row-cols-md-3">
+      <div class="col mb-4">
+        <div class="card">
+          <img src="350x150.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, at! Nulla eveniet, dolores laudantium voluptatem voluptates illo autem reprehenderit ipsam nemo provident, consequatur odit architecto rerum id sunt temporibus fugiat.</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <img src="placeholder-image.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque esse sit aspernatur atque eaque veniam totam a molestiae doloremque consequatur, itaque cupiditate natus repudiandae quibusdam hic iure, nobis reiciendis nulla.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="350x150.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, at! Nulla eveniet, dolores laudantium voluptatem voluptates illo autem reprehenderit ipsam nemo provident, consequatur odit architecto rerum id sunt temporibus fugiat.</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <img src="placeholder-image.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo doloribus sed eius natus quibusdam maiores accusamus! Vero, nemo consequuntur, quos officia sequi corporis aperiam distinctio, sapiente laboriosam praesentium debitis fugit.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="350x150.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, at! Nulla eveniet, dolores laudantium voluptatem voluptates illo autem reprehenderit ipsam nemo provident, consequatur odit architecto rerum id sunt temporibus fugiat.</p>
+          </div>
+        </div>
       </div>
-    </div>
-</div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="350x150.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, at! Nulla eveniet, dolores laudantium voluptatem voluptates illo autem reprehenderit ipsam nemo provident, consequatur odit architecto rerum id sunt temporibus fugiat.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="350x150.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, at! Nulla eveniet, dolores laudantium voluptatem voluptates illo autem reprehenderit ipsam nemo provident, consequatur odit architecto rerum id sunt temporibus fugiat.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="350x150.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, at! Nulla eveniet, dolores laudantium voluptatem voluptates illo autem reprehenderit ipsam nemo provident, consequatur odit architecto rerum id sunt temporibus fugiat.</p>
+          </div>
+        </div>
 
-
-
-  </div>
+  </main>
 
 </body>
+
 </html>
