@@ -2,6 +2,11 @@ body {
     background-image: url(black_mamba.png);
 }
 
+
+h1 {
+    text-align: center;
+}
+
 .navbar {
     background-color: rgb(9, 73, 73);
 }
@@ -13,19 +18,12 @@ body {
     float: left;
 }
 
-.input-group.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext  {
-    width: 100%;
-    margin-top: 5px;
+.form-group {
+    width: 75%;
+    margin-left: 20px
 }
 
-.btn-primary {
-    margin-left: 5px;
-}
 
-h1  {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
+.btn {
+    margin: 20px;
 }
