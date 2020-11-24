@@ -8,30 +8,24 @@ body {
 
 .jumbotron {
     margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
-    border-radius: 1rem;
-    padding-top: 30px;
-}
-
-.h1, h1  {
-    text-align: center;
-}
-
-.lead  {
-    text-align: center;
-}
-
-.fa {
-    size: 50px;
-}
-
-.details {
+    height: 500px;
+    width: 75%;
     float: left;
-    width: 33%;
+}
+
+.input-group.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext  {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.btn-primary {
+    margin-left: 5px;
+}
+
+h1  {
     text-align: center;
 }
 
-.display-4 {
-    margin: 
+h2 {
+    text-align: center;
 }
