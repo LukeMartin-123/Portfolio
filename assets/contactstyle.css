@@ -12,7 +12,7 @@ h1 {
 
 .jumbotron {
     margin-top: 50px;
-    height: 500px;
+    height: 650px;
     width: 75%;
     float: left;
 }
@@ -24,4 +24,8 @@ h1 {
 
 .btn {
     margin: 20px;
+}
+
+h3{
+    margin-left: 5px;
 }

@@ -23,6 +23,7 @@ p {
 
 .card-body {
     background-image: url(black_mamba.png);
+    height: auto;
 }
 
 .card-title {

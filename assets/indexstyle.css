@@ -27,3 +27,15 @@ body {
     height: 40%;
   }
 
+.btn {
+        background-color: gray;
+        border: none;
+        color: white;
+        padding: 12px 16px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-left: 5px;
+        
+        
+      
+}
