@@ -17,13 +17,18 @@ h2 {
     margin-bottom: 5px;
 }
 
+
 p {
     color: white;
 }
 
+.card {
+    height: 300px;
+}
+
 .card-body {
     background-image: url(black_mamba.png);
-    height: auto;
+    
 }
 
 .card-title {
