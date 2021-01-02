@@ -35,6 +35,12 @@ p {
     color: white;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 17vw;
+    object-fit: cover;
+}
+
 
 .lead {
     color: black;
