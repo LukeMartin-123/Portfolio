@@ -19,7 +19,7 @@ h2 {
 }
 
 .bio-box {
-    width: 70%;
+    width: 80%;
     justify-content: center;
     margin: auto;
 }
@@ -58,3 +58,16 @@ h2 {
     display: flex;
 }
 
+@media screen and (max-width: 992px) {
+    .bio-box {
+         width: 80%;
+         font-size: 90%;
+     }
+ }
+
+@media screen and (max-width: 768px) {
+    .bio-box {
+         width: 95%;
+         font-size: 90%;
+     }
+ }
