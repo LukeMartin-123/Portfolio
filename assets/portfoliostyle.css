@@ -8,15 +8,14 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 15px;
+    margin-bottom: 20px;
 }
 
 h2 {
     color: white;
     text-align: center;
     font-size: 20px;
-    margin-bottom: 5px;
 }
-
 
 p {
     color: white;
@@ -32,7 +31,18 @@ p {
 
 .card-body {
     background-image: url(black_mamba.png);
-    
+}
+
+.row {
+    margin-top: 0rem;
+}
+
+.col-sm-12 {
+    margin-top: 1rem;
+}
+
+.mt-4, .my-4 {
+    margin-top: 0rem!important;
 }
 
 .card-title {
