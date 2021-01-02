@@ -67,3 +67,10 @@ header{
           
 }
 
+@media screen and (max-width: 768px) {
+   .btn {
+        width: auto;
+        float: none;
+        font-size: 90%;
+    }
+}
